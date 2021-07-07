@@ -40,7 +40,7 @@ const useStyles = makeStyles({
         bottom: 27
     },
     footerWrapper: {
-        display: "flex",
+        display: 'flex',
         position: 'absolute',
         bottom: '26px',
         alignItems: "center",
@@ -95,17 +95,60 @@ const useStyles = makeStyles({
         alignItems: "center"
     },
     nameImg: {
-        background:'#222222',
-        padding:'13px',
+        background: '#222222',
+        padding: '13px',
         borderRadius: '15px',
         width: '56px',
         height: '56px',
-        display: "flex",
-        justifyContent: "center"
+        display: 'flex',
+        justifyContent: 'center'
 
     },
     nameContent: {
         marginLeft: '15px'
+    },
+    mainTitleStyle: {
+        fontSize: '35px',
+        lineHeight: '52px',
+    },
+    headerWrapper: {
+        display: 'flex',
+        justifyContent: 'space-between'
+    },
+    headerMenu: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    headerIcon: {
+        background: ' #F2F5FA',
+        borderRadius: '50px',
+        marginRight: '17px',
+        display: 'flex',
+        height: '48px',
+        width: '48px',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    accountWrapper: {
+        display: 'flex',
+        position: 'relative',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    accountContentWrapper: {
+        background: '#F2F5FA',
+        borderRadius: '27px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding:'10px',
+        paddingLeft: '80px'
+    },
+    accountImgStyle: {
+        position: 'absolute',
+        left:8,
+        bottom: 5
     }
 
 });

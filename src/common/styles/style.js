@@ -149,13 +149,71 @@ const useStyles = makeStyles({
         left: 8,
         bottom: 5
     },
-    advetisingBlock: {
+    advertisingBlock: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
         background: '#222222',
-        color: '#FFFFF',
-        height: '363px',
+        height: '360px',
         borderRadius: '30px',
+        padding: '30px',
+        position: 'relative'
+    },
+    advertisingTitleStyle: {
+        fontStyle: 'normal',
+        fontWeight: 'bold',
+        fontSize: '30px',
+        lineHeight: '45px',
+        letterSpacing: '0.02em',
+        color: '#fff'
+    },
+    advertisingTextStyle: {
+        fontStyle: 'normal',
+        fontWeight: '300',
+        fontSize: '15px',
+        lineHeight: '22px',
+        letterSpacing: '0.02em',
+        color: '#fff'
+    },
+    buttonWrapper: {
+        display: 'flex',
+        alignItems: 'flex-start',
+        width: '100%',
+        marginTop: '45px'
+    },
+    buttonStyle: {
+        color: '#000000',
+        background: '#BCDFFF',
+        borderRadius: '23px',
+        fontWeight: 600,
+        fontSize: '16px',
+        paddingRight: '40px',
+        paddingLeft: '40px'
+    },
+    advertisingImg: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0
+    },
+    subBlockFirst: {
+        width: '90%',
+        height: '48px',
+        background: '#DFDFE3',
+        borderRadius: '24px',
+        position: 'absolute',
+        bottom: '-16px',
+        zIndex: -1
+    },
+    subBlockSecond: {
+        width: '80%',
+        height: '48px',
+        background: '#F0F0F1',
+        borderRadius: '24px',
+        position: 'absolute',
+        bottom: '-28px',
+        zIndex: -2
     }
-
 });
 
 export default useStyles;

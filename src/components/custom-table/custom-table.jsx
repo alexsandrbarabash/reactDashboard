@@ -52,7 +52,7 @@ const CustomTable = () => {
     const {priceStyle, chaneeStyle} = useStyles()
 
     return (
-        <Table>
+        <Table padding={'10px'}>
             <TableHead>
                 <TableRow>
                     <StyledTableCell>Name</StyledTableCell>

@@ -96,7 +96,6 @@ const useStyles = makeStyles({
     },
     nameImg: {
         background: '#222222',
-        padding: '13px',
         borderRadius: '15px',
         width: '56px',
         height: '56px',
@@ -142,13 +141,19 @@ const useStyles = makeStyles({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding:'10px',
+        padding: '10px',
         paddingLeft: '80px'
     },
     accountImgStyle: {
         position: 'absolute',
-        left:8,
+        left: 8,
         bottom: 5
+    },
+    advetisingBlock: {
+        background: '#222222',
+        color: '#FFFFF',
+        height: '363px',
+        borderRadius: '30px',
     }
 
 });

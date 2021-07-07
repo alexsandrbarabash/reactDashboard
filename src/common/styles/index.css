@@ -1,4 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
+.MuiTableCell-root {
+    padding: 10px!important;
+}

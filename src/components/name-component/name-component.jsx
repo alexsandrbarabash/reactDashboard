@@ -6,7 +6,7 @@ const NameComponent = ({name, subname, src}) => {
     return (
         <div className={nameWrapper}>
             <div className={nameImg}>
-                <img src={src} alt=""/>
+                <img src={src} alt="" width={30}/>
             </div>
             <div className={nameContent}>
                 <div className={priceStyle}>{name}</div>

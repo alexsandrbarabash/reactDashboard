@@ -2,11 +2,11 @@ import React from 'react';
 import {Grid} from '@material-ui/core';
 import CustomCard from "../custom-card";
 import useStyles from '../../common/styles/style';
+import CardFooter from "../card-footer";
 import mainCard from '../../assets/img/main-card.svg';
 import cardFirst from '../../assets/img/card-1.svg';
 import cardSecond from '../../assets/img/card-2.svg';
 import cardThird from '../../assets/img/card-3.svg';
-import CardFooter from "../card-footer";
 
 const CardSection = () => {
     const {titleStyle, mainPhoto} = useStyles();
@@ -33,7 +33,7 @@ const CardSection = () => {
                                 backgroundColor={'#E5DEF0'}
                                 title={'1.25 BTC'}
                                 subTitle={'$ 2948.04'}
-                                FooterComponent={() => <CardFooter img={cardFirst} text={35}/>}
+                                FooterComponent={() => <CardFooter img={cardFirst} text={0.14}/>}
                             />
                         </Grid>
                         <Grid item xs={4}>
@@ -41,7 +41,7 @@ const CardSection = () => {
                                 backgroundColor={'#D6EDDA'}
                                 title={'0.32 LTC'}
                                 subTitle={'$ 2948.04'}
-                                FooterComponent={() => <CardFooter img={cardFirst} text={35}/>}
+                                FooterComponent={() => <CardFooter img={cardSecond} text={0.31}/>}
                             />
                         </Grid>
                         <Grid item xs={4}>
@@ -49,7 +49,7 @@ const CardSection = () => {
                                 backgroundColor={'#F6F0D8'}
                                 title={'1.25 ETH'}
                                 subTitle={'$ 2948.04'}
-                                FooterComponent={() => <CardFooter img={cardFirst} text={35}/>}
+                                FooterComponent={() => <CardFooter img={cardThird} text={0.27}/>}
                             />
                         </Grid>
                     </Grid>
